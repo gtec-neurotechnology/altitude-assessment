@@ -1,0 +1,15 @@
+# Distributable installers are published as GitHub Release assets, not committed
+# to the repository. (The app installer exceeds GitHub's 100 MB per-file limit,
+# and binaries do not belong in git history.)
+*.exe
+*.msi
+
+# OS / editor cruft
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*~
+.idea/
+.vscode/
